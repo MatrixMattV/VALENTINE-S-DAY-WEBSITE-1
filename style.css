@@ -1,0 +1,97 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    background: url("pexels-monstera-production-5874620.jpg");
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+}
+
+header {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 28px 100px;
+}
+
+h2 {
+    color: aliceblue;
+    font-size: 26px;
+    font-weight: 700;
+}
+
+nav a {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 8px 16px;
+    margin: 0 16px;
+    color: aliceblue;
+}
+
+header button {
+    font-size: 16px;
+    padding: 8px 16px;
+    font-weight: 600;
+    letter-spacing: .5px;
+    cursor: pointer;
+    outline: none;
+    background: pink;
+    color: black;
+    border: 2px solid black;
+    border-radius: 8px;
+    transition: .3s;
+}
+
+header button:hover {
+    color: pink;
+    background: black;
+}
+
+.content {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-content {
+    text-align: center;
+    color: aliceblue;
+    max-width: 1200px;
+}
+
+.main-content h1 {
+    font-size: 3.5rem;
+}
+
+.main-content p {
+    margin-top: 20px;
+    font-size: 18px;
+    max-width: 700px;
+}
+
+.main-content button {
+    margin-top: 20px;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    padding: 12px 28px;
+    border-radius: 8px;
+    cursor: pointer;
+    background: lightpink;
+    color: black;
+    transition: .3s;
+}
+
+.main-content button:hover {
+    color: lightpink;
+    background: black;
+}
+
